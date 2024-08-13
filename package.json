@@ -1,0 +1,16 @@
+{
+  "name": "postman-to-openapi",
+  "version": "1.0.0",
+  "description": "transform collection postman in openapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert": "node convert.js"
+  },
+  "author": "Hugo Henrique",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "postman-to-openapi": "^3.0.1"
+  }
+}
